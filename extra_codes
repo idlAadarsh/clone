@@ -1,0 +1,50 @@
+this is css of future 2 boxes
+
+.box2{
+    width: 100vw;
+    height: 510px;
+    border: 1px solid black;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 100vw;
+    height: 510px;
+    border: 1px solid black;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+third para is here
+
+.box3 .third_para{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+HTMl code of these box are following:
+
+<div class="box2">
+                <div class="box2">
+                    <div class="first_para">iPhone 16 Pro</div>
+                    <div class="second_para">Build for Apple Intelligence.</div>
+                    <div class="button">
+                        <button>Learn more</button>
+                        <button>Buy</button>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="first_para">MacBook Air</div>
+                    <div class="second_para">Sky blue colour.</div>
+                    <div class="third_para">Sky high performance with M4.</div>
+                    <div class="button">
+                        <button>Learn more</button>
+                        <button>Buy</button>
+                    </div>
+                </div>
+
+            </div>
