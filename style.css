@@ -8,29 +8,30 @@ body {
     margin: 0px;
     outline: none;
 }
-nav {display: flex;
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 40px;
     position: fixed;
     top: 0;
-    background-color: #000000;
+    background-color: #ffffff;
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-items {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     gap: 44px;
     list-style: none;
     margin: 0;
 }
 
 .nav-items a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 12px;
-    display: flex;
-    align-items: center;
     height: 44px;
     transition: color 0.2s ease;
 }
@@ -40,20 +41,20 @@ nav {display: flex;
 }
 
 nav img {
-    margin: 20px;
+    margin: 30px;
     width: 16px;
     color: white;
 }
-nav .hamgburger{
+nav .hamburger{
     display:none;
     cursor: pointer;
-    font-size: 500px;
-    color: white;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 }
 
-@media (max-width:778){
-    .hamgburger{
-        display: block;
+@media (max-width: 768px) {
+    nav .hamburger{
+        display:block;
     }
     .nav-items{
         display: none;
@@ -61,15 +62,16 @@ nav .hamgburger{
 }
 
 
-.top-strip {
+
+
+ .top-strip {
+    text-align: center;
     margin-top: 44px;
-    height: 45px;
-    background-color: rgb(31, 29, 29);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid black;
-    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 14px;
 }
 
@@ -82,7 +84,7 @@ nav .hamgburger{
     width: 100%;
     height: 10px;
 }
-
+/*
 .box1 {
     text-align: center;
     width: 100vw;
@@ -425,4 +427,4 @@ nav .hamgburger{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
