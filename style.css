@@ -8,7 +8,13 @@ body {
     margin: 0px;
     outline: none;
 }
-
+nav {display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05);
+}
 
 .nav-items {
     display: flex;
@@ -33,18 +39,25 @@ body {
     color: #0071e3;
 }
 
-.nav-items img {
+nav img {
+    margin: 20px;
     width: 16px;
     color: white;
 }
+nav .hamgburger{
+    display:none;
+    cursor: pointer;
+    font-size: 500px;
+    color: white;
+}
 
-
-nav {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #000000;
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05);
+@media (max-width:778){
+    .hamgburger{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
 }
 
 
